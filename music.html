@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>网易云音乐</title>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+	<script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<script src="music.js"></script>
+</head>
+<body>
+	<header>
+		<div class="wp_top" name="top">
+			<h1 class="logo_img">
+				<a href="javascript:;"></a>
+			</h1>
+			<ul class="m_nav" id="m_nav">
+				<li class="first_li"><a href="javascript:;">发现音乐</a></li>
+				<li><a href="javascript:;">我的音乐</a></li>
+				<li><a href="javascript:;">朋友</a></li>
+				<li><a href="javascript:;">商城</a></li>
+				<li><a href="javascript:;">音乐人</a></li>
+				<li>
+					<a href="javascript:;">下载客户端</a>
+					<i class="hot_icon"></i>
+				</li>
+			</ul>
+			<div class="m_search">
+				<i></i>
+				<input type="text" placeholder="音乐/视频/电台/用户" />
+			</div>
+			<div class="m_video">
+				<a href="javascript:;">视频投稿</a>
+			</div>
+			<div class="login" id="login">		
+				<a class="login_btn" id="login_btn" href="javascript:;">登录</a>
+				<i class="icon_arr1"></i>
+				<div class="m_hidden" id="m_hidden">
+					<i class="icon icon_arr2"></i>
+					<ul>
+						<li>
+							<a href="javascript:;">
+								<i class="icon icon_mb"></i>
+								手机号登录
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="icon icon_wx"></i>
+								微信登录
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="icon icon_qq"></i>
+								QQ登录
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<i class="icon icon_wb"></i>
+								新浪微博登录
+							</a>
+						</li>
+						<li style="border-bottom: none;">
+							<a href="javascript:;">
+								<i class="icon icon_wy"></i>
+								网易邮箱账号登录
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="g_nav2">
+			<div class="wp_nav2">
+				<i></i>
+				<ul>
+					<li class="active"><a href="javaScript:;"><em>推荐</em></a></li>
+					<li><a href="javaScript:;"><em>排行榜</em></a></li>
+					<li><a href="javaScript:;"><em>歌单</em></a></li>
+					<li><a href="javaScript:;"><em>主播电台</em></a></li>
+					<li><a href="javaScript:;"><em>歌手</em></a></li>
+					<li><a href="javaScript:;"><em>新碟上架</em></a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>	
+		<div class="clear"></div>
+	</header>
+	<div class="banner" id="banner">
+		<div class="banner_wp">
+			<div class="picture" id="picture">
+				<a class="p_img" href="javascript:;" style="z-index: 1">
+					<img src="img/p1.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p2.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p3.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p4.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p5.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p6.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p7.jpg" />
+				</a>
+				<a class="p_img" href="javascript:;">
+					<img src="img/p8.jpg" />
+				</a>
+			</div>
+			<div class="dot_list" id="dot_list">
+					<ul>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<li><a></a></li>
+						<div class="clear"></div>
+					</ul>
+			</div>
+			<a href="javascript:;" class="left icon_btn" id="left"></a>
+			<a href="javascript:;" class="right icon_btn" id="right"></a>
+			<div class="banner_right">
+				<a class="download_btn"; href="javascript:;"></a>
+				<span>PC 安卓 iPhone WP iPad Mac 六大客户端</span>
+				<i class="shadow_l shadow"></i>
+				<i class="shadow_r shadow"></i>
+			</div>
+		</div>
+	</div>
+	<div class="context">
+		<div class="context_left">
+			<div class="hot">
+				<div class="hot_h">
+					<i></i>
+					<a class="hot_a"; href="javascript:;">热门推荐</a>
+					<ul>
+						<li><a href="javascript:;">华语</a></li>
+						<li><a href="javascript:;">流行</a></li>
+						<li><a href="javascript:;">摇滚</a></li>
+						<li><a href="javascript:;">民谣</a></li>
+						<li class="last_li"><a href="javascript:;">电子</a></li>
+						
+					</ul>
+					<div class="more">
+						<a href="javascript:;">更多</a>
+						<span></span>
+					</div>
+				</div>
+				<ul class="hot_con">
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c1.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">有故事的男生，唱着有故事的歌</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c2.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">众里寻你·我的七十亿份之一</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c3.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">千与千寻|One Summer's Day</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c4.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">每个人都在挣扎，请你千万别倒下。</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c5.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">喪 就 完 事 了</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c6.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">I Need R3hab304</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c7.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">2018年7月新番动漫音乐集</a>
+					</li>
+					<li>
+						<div class="pic">
+							<a href="javascript:;">
+								<img src="img/c8.jpg" />
+								<i class="cover"></i>
+							</a>
+							<div class="pic_bottom">
+								<a class="play_btn"; href="javascript:;"></a>
+								<span class="nb">133万</span>
+								<span class="icon_headset"></span>
+							</div>
+						</div>
+						<a class="pic_detial"; href="javascript:;">再见（男声）</a>
+					</li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+			<div class="new">
+				<div class="new_h">
+					<i></i>
+					<a class="new_a"; href="javascript:;">新碟上架</a>
+					<div class="more">
+						<a href="javascript:;">更多</a>
+						<span></span>
+					</div>
+				</div>
+				<div class="new_con" id="new_con">
+					<a class="turn_left turn_btn" href="javascript:;"></a>
+					<a class="turn_right turn_btn" href="javascript:;"></a>
+					<div class="new_list_wp">
+						<ul class="new_list">
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc1.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">火焰小溪</a>
+								<br />
+								<a class="disc_author" href="javascript:;">林宥嘉</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc2.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">周士原</a>
+								<br />
+								<a class="disc_author" href="javascript:;">周士原</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc3.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">TROUBLE</a>
+								<br />
+								<a class="disc_author" href="javascript:;">浜崎あゆみ</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc4.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">香蜜沉沉烬如霜 电视原声音乐专辑</a>
+								<br />
+								<a class="disc_author" href="javascript:;">群星</a>
+							</li>
+							<li style="margin-right: 0">
+								<a class="disc" href="javascript:;">
+									<img src="img/disc5.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">THE FIRST II</a>
+								<br />
+								<a class="disc_author" href="javascript:;">乐华七子NEXT</a>
+							</li>
+							<div class="clear"></div>
+						</ul>
+						<ul class="new_list">
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc6.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">流星花园 电视原声带</a>
+								<br />
+								<a class="disc_author" href="javascript:;">群星</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc7.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">偶遇</a>
+								<br />
+								<a class="disc_author" href="javascript:;">王菲</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc8.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">Head In The Clouds</a>
+								<br />
+								<a class="disc_author" href="javascript:;">88rising</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc9.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">孤独她呀</a>
+								<br />
+								<a class="disc_author" href="javascript:;">二珂</a>
+							</li>
+							<li style="margin-right: 0">
+								<a class="disc" href="javascript:;">
+									<img src="img/disc10.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">平凡的一天</a>
+								<br />
+								<a class="disc_author" href="javascript:;">毛不易</a>
+							</li>
+							<div class="clear"></div>
+						</ul>
+						<ul class="new_list">
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc1.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">火焰小溪</a>
+								<br />
+								<a class="disc_author" href="javascript:;">林宥嘉</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc2.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">周士原</a>
+								<br />
+								<a class="disc_author" href="javascript:;">周士原</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc3.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">TROUBLE</a>
+								<br />
+								<a class="disc_author" href="javascript:;">浜崎あゆみ</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc4.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">香蜜沉沉烬如霜 电视原声音乐专辑</a>
+								<br />
+								<a class="disc_author" href="javascript:;">群星</a>
+							</li>
+							<li style="margin-right: 0">
+								<a class="disc" href="javascript:;">
+									<img src="img/disc5.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">THE FIRST II</a>
+								<br />
+								<a class="disc_author" href="javascript:;">乐华七子NEXT</a>
+							</li>
+							<div class="clear"></div>
+						</ul>
+						<ul class="new_list">
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc6.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">流星花园 电视原声带</a>
+								<br />
+								<a class="disc_author" href="javascript:;">群星</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc7.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">偶遇</a>
+								<br />
+								<a class="disc_author" href="javascript:;">王菲</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc8.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">Head In The Clouds</a>
+								<br />
+								<a class="disc_author" href="javascript:;">88rising</a>
+							</li>
+							<li>
+								<a class="disc" href="javascript:;">
+									<img src="img/disc9.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">孤独她呀</a>
+								<br />
+								<a class="disc_author" href="javascript:;">二珂</a>
+							</li>
+							<li style="margin-right: 0">
+								<a class="disc" href="javascript:;">
+									<img src="img/disc10.jpg" />
+									<i></i>
+								</a>
+								<a class="play_icon" href="javascript:;"></a>
+								<a class="disc_title" href="javascript:;">平凡的一天</a>
+								<br />
+								<a class="disc_author" href="javascript:;">毛不易</a>
+							</li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<div class="list_h">
+					<i></i>
+					<a class="list_a"; href="javascript:;">榜单</a>
+					<div class="more">
+						<a href="javascript:;">更多</a>
+						<span></span>
+					</div>
+				</div>
+				<div class="list_con">
+					<dl class="blk">
+						<dt class="blk_dt">
+							<img src="img/blk1.jpg" />
+							<a class="blk_msk" href="javascript:;"></a>
+							<a class="blk_title" href="javascript:;"><h3>云音乐飙升榜</h3></a>
+							<a class="blk_btn blk_play"></a>
+							<a class="blk_btn blk_save"></a>	
+						</dt>
+						<dd>
+							<ol class="ol_list" id="ollist1">
+								<li>
+									<span class="no_top">1</span>
+									<a class="song" href="javascript:;">Hold Me Down(中文版)</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span class="no_top">2</span>
+									<a class="song" href="javascript:;">尘土</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span class="no_top">3</span>
+									<a class="song" href="javascript:;">Majesty</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>4</span>
+									<a class="song" href="javascript:;">最好的朋友在身边</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>5</span>
+									<a class="song" href="javascript:;">追梦(Live)</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>6</span>
+									<a class="song" href="javascript:;">U DON'T KNOW</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>7</span>
+									<a class="song" href="javascript:;">慢</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>8</span>
+									<a class="song" href="javascript:;">说散就散</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>9</span>
+									<a class="song" href="javascript:;">Rep That Culture (Live)</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>10</span>
+									<a class="song" href="javascript:;">Ganja Burns</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+							</ol>
+							<div class="ol_more">
+								<a href="javascript:;">查看全部></a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="blk">
+						<dt class="blk_dt">
+							<img src="img/blk2.jpg" />
+							<a class="blk_msk" href="javascript:;"></a>
+							<a class="blk_title" href="javascript:;"><h3>云音乐新歌榜</h3></a>
+							<a class="blk_btn blk_play"></a>
+							<a class="blk_btn blk_save"></a>	
+						</dt>
+						<dd>
+							<ol class="ol_list" id="ollist2">
+								<li>
+									<span class="no_top">1</span>
+									<a class="song" href="javascript:;">星球坠落 (Live)</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span class="no_top">2</span>
+									<a class="song" href="javascript:;">陷阱</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span class="no_top">3</span>
+									<a class="song" href="javascript:;">卡路里</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>4</span>
+									<a class="song" href="javascript:;">Hold Me Down (中文版)</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>5</span>
+									<a class="song" href="javascript:;">倒数</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>6</span>
+									<a class="song" href="javascript:;">Animal</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>7</span>
+									<a class="song" href="javascript:;">Moonlight</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>8</span>
+									<a class="song" href="javascript:;">最好</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>9</span>
+									<a class="song" href="javascript:;">孤独她呀</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>10</span>
+									<a class="song" href="javascript:;">戏精</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+							</ol>
+							<div class="ol_more">
+								<a href="javascript:;">查看全部></a>
+							</div>
+						</dd>
+					</dl>
+					<dl class="blk">
+						<dt class="blk_dt">
+							<img src="img/blk3.jpg" />
+							<a class="blk_msk" href="javascript:;"></a>
+							<a class="blk_title" href="javascript:;"><h3>网易原创歌曲榜</h3></a>
+							<a class="blk_btn blk_play"></a>
+							<a class="blk_btn blk_save"></a>	
+						</dt>
+						<dd>
+							<ol class="ol_list" id="ollist3">
+								<li>
+									<span class="no_top">1</span>
+									<a class="song" href="javascript:;">这是你想要的生活吗</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span class="no_top">2</span>
+									<a class="song" href="javascript:;">难堪</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span class="no_top">3</span>
+									<a class="song" href="javascript:;">Wolves Ay We</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>4</span>
+									<a class="song" href="javascript:;">你能看到我</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>5</span>
+									<a class="song" href="javascript:;">这酒馆以后就我一个人来了</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>6</span>
+									<a class="song" href="javascript:;">有人</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>7</span>
+									<a class="song" href="javascript:;">狂妄</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>8</span>
+									<a class="song" href="javascript:;">乘风破浪</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>9</span>
+									<a class="song" href="javascript:;">空调西瓜绿豆冰沙</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+								<li>
+									<span>10</span>
+									<a class="song" href="javascript:;">Baby what you want</a>
+									<div class="oper">
+										<a class="oper1" href="javascript:;"></a>
+										<a class="oper2" href="javascript:;"></a>
+										<a class="oper3" href="javascript:;"></a>
+									</div>
+								</li>
+							</ol>
+							<div class="ol_more">
+								<a href="javascript:;">查看全部></a>
+							</div>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<div class="context_right">
+			<div class="user_login">
+				<p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+				<a href="javascript:;">用户登录</a>
+			</div>
+			<div class="singer">
+				<div class="singer_h">
+					<h3>入驻歌手</h3>
+					<a href="javascript:;">查看全部 ></a>
+				</div>
+				<div class="singer_list">
+					<ul>
+						<li>
+							<a href="javascript:;">
+								<div class="singer_info">
+									<img src="img/s1.jpg" />
+									<p class="singer_name">张惠妹aMEI</p>
+									<p class="singer_msg">台湾歌手张惠妹</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div class="singer_info">
+									<img src="img/s2.jpg" />
+									<p class="singer_name">Fine乐团</p>
+									<p class="singer_msg">独立音乐人</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div class="singer_info">
+									<img src="img/s3.jpg" />
+									<p class="singer_name">萬曉利</p>
+									<p class="singer_msg">民谣歌手、中国现代民谣的代表人物之一</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div class="singer_info">
+									<img src="img/s4.jpg" />
+									<p class="singer_name">音乐人赵雷</p>
+									<p class="singer_msg">民谣歌手</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<div class="singer_info">
+									<img src="img/s5.jpg" />
+									<p class="singer_name">王三溥</p>
+									<p class="singer_msg">音乐人</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="singer_btn" id="singer_btn">
+					<a href="javascript:;">申请成为网易音乐人</a>
+					<i></i>
+				</div>
+			</div>
+			<div class="up">
+				<div class="up_h">
+					<h3>热门主播</h3>
+					<a href="javascript:;">查看全部 ></a>
+				</div>
+				<div class="up_list">
+					<ul>
+						<li>
+							<a class="head_icon"; href="javascript:;">
+								<img src="img/up1.jpg" />
+							</a>
+							<a class="up_name"; href="javascript:;">陈立</a>
+							<i class="vip"></i>
+							<br />
+							<span>心理学家，美食家陈立教授</span>
+						</li>
+						<li>
+							<a class="head_icon"; href="javascript:;">
+								<img src="img/up2.jpg" />
+							</a>
+							<a class="up_name"; href="javascript:;">DJ艳秋</a>
+							<i class="vip"></i>
+							<br />
+							<span>著名音乐节目主持人</span>
+						</li>
+						<li>
+							<a class="head_icon"; href="javascript:;">
+								<img src="img/up3.jpg" />
+							</a>
+							<a class="up_name"; href="javascript:;">国家大剧院古典音乐频道</a>
+							<i class="vip"></i>
+							<br />
+							<span>国家大剧院古典音乐官方</span>
+						</li>
+						<li>
+							<a class="head_icon"; href="javascript:;">
+								<img src="img/up4.jpg" />
+							</a>
+							<a class="up_name"; href="javascript:;">谢谢收听</a>
+							<i class="vip"></i>
+							<br />
+							<span>南京电台主持人王馨</span>
+						</li>
+						<li>
+							<a class="head_icon"; href="javascript:;">
+								<img src="img/up5.jpg" />
+							</a>
+							<a class="up_name"; href="javascript:;">DJ晓苏</a>
+							<i class="vip"></i>
+							<br />
+							<span>独立DJ，CRI环球旅游广播特邀DJ</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="go_top">
+		<a href="#top"></a>
+	</div>
+	<footer>
+		<div class="footer_wp">
+			<div class="copy">
+				<ul>
+					<li><a href="javascript:;">关于网易</a></li>
+					<li><a href="javascript:;">客户服务</a></li>
+					<li><a href="javascript:;">服务条款</a></li>
+					<li><a href="javascript:;">网站导航</a></li>
+					<li style="border-right:none;"><a href="javascript:;">意见反馈</a></li>
+				</ul>
+				<br />
+				<p>网易公司版权所有©1997-2018杭州乐读科技有限公司运营：浙网文[2018]3506-263号</p>
+				<p>违法和不良信息举报电话：0571-89853516 举报邮箱：cloudmusicservice@163.com</p>
+			</div>
+			<ul>
+				<li>
+					<a class="foot_icon icon1" href="javascript:;"></a>
+				</li>
+				<li>
+					<a class="foot_icon icon2" href="javascript:;"></a>
+				</li>
+				<li>
+					<a class="foot_icon icon3" href="javascript:;"></a>
+				</li>
+				<li>
+					<a class="foot_icon icon4" href="javascript:;"></a>
+				</li>
+				<li>
+					<a class="foot_icon icon5" href="javascript:;"></a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
